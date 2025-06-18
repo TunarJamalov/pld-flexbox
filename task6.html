@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Task 6</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body, html {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header, footer {
+    background-color: #ad1d03;
+    color: rgb(7, 2, 2);
+    padding: 20px;
+    text-align: center;
+  }
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+  .card {
+    background: #080000;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 250px; 
+    max-width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  h1, h2 {
+    margin-bottom: 15px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) {
+    header, footer {
+      padding: 15px 10px;
+      font-size: 0.9rem;
+    }
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Holberton</h1>
+</header>
+
+<main>
+  <div class="cards-container">
+    <div class="card">
+      <h2>1</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, corporis velit recusandae totam ipsa nihil aspernatur autem voluptas unde fugit. Est doloremque praesentium neque facere, aspernatur minima ea at sit!</p>
+    </div>
+    <div class="card">
+      <h2>2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quis, ad placeat voluptatem excepturi repellat, sapiente explicabo totam ex expedita fugit ratione autem ut, non culpa fuga porro adipisci? Perspiciatis!</p>
+    </div>
+    <div class="card">
+      <h2>3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio maiores inventore itaque repellat perferendis consequatur vel. Molestias ipsum id molestiae saepe quia, reiciendis quas sed, consequuntur recusandae nihil sunt.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  &copy; 2025 Holberton. All rights reserved.
+</footer>
+
+</body>
+</html>

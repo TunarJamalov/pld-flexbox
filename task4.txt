@@ -1,0 +1,14 @@
+Task 4: Flex Container vs. Flex Items 
+Question: What are the key properties that work on flex containers and flex items? 
+●  List 3 properties that apply to a flex container and 3 that apply to flex items, and 
+explain what each does.
+
+Flex Container Properties
+    display: flex – Makes an element a flex container.
+    flex-direction – Sets the direction of flex items (row and column).
+    justify-content – Aligns items along the main axis (start, center, space-between, etc.).
+
+Flex Item Properties
+    flex-grow – Lets an item grow to fill extra space.
+    flex-shrink – Allows an item to shrink if needed.
+    align-self – Overrides item alignment on the cross axis.

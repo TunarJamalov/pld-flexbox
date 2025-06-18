@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column left">Left</div>
+        <div class="column right">Right</div>
+    </div>
+
+    <style>
+        /* Using Float */
+        /* .container{
+            width: 100%;
+            overflow: hidden;
+        }
+        .column{
+            width: 48%;
+            float: left;
+            margin: 1;
+            box-sizing: border-box;
+        }
+        .right{
+            float: right;
+        } */
+
+
+        /* Using Flexbox */
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .column{
+            width: 48%;
+            box-sizing: border-box;
+        }
+
+    </style>
+</body>
+</html>

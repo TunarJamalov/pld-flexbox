@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+</head>
+<body>
+    <style>
+        .card-container{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            align-self: flex-start;
+            margin-bottom: 10px;
+        }
+        .card p{
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+    <div class="card-container">
+        <div class="card">
+            <img src="assets/car1.png" alt="Car 1">
+            <p>Car 1</p>
+        </div>
+        <div class="card">
+            <img src="assets/car2.jpeg" alt="Car 2">
+            <p>Car 2</p>
+        </div>
+        <div class="card">
+            <img src="assets/car3.png" alt="Car 3">
+            <p>Car 3</p>
+        </div>
+
+    </div>
+</body>
+</html>

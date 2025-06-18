@@ -1,0 +1,15 @@
+Task 2: Aligning Elements 
+Question: How can you horizontally and vertically align elements using Flexbox? 
+●  Explain the properties you would use to align content along the main and cross axes 
+in a flex container. 
+
+
+
+Answer:
+To align elements using Flexbox:
+
+    Main axis (horizontal by default): Use justify-content to align items (e.g., flex-start, center, flex-end, space-between).
+
+    Cross axis (vertical by default): Use align-items to align items (e.g., flex-start, center, flex-end, stretch).
+
+For aligning the entire flex lines (if multiple), use align-content on the cross axis.

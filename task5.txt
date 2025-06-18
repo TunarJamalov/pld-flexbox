@@ -1,0 +1,12 @@
+Task 5: Flexbox Shorthands 
+Question: What are the shorthand properties for flex in CSS? 
+●  Explain how the flex shorthand property works and what values it can take. 
+
+Answer:
+Shorthands properties are: flex-grow, flex-shrink and flex-basis
+
+1.flex-grow (number) — how much the item will grow relative to others (default: 0).
+
+2.flex-shrink (number) — how much the item will shrink if needed (default: 1).
+
+3.flex-basis (length or keyword) — the initial size of the item before growing or shrinking (default: auto).

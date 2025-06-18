@@ -1,0 +1,22 @@
+Task 1: Understanding Flexbox Basics 
+Question: What is Flexbox? 
+●  Write a brief explanation of Flexbox and its purpose in modern web design. 
+●  Why is Flexbox considered better than traditional float positioning or inline-block 
+layouts?
+
+--------------------------------------------------------------------------------------------
+
+
+
+●  Write a brief explanation of Flexbox and its purpose in modern web design. 
+Answer:
+Flexbox is a CSS layout module designed to arrange elements efficiently within a container, even when their sizes are dynamic.
+Flexbox makes it easier to build responsive, flexible, and adaptive layouts without relying on floats or complex hacks
+
+
+●  Why is Flexbox considered better than traditional float positioning or inline-block 
+layouts?
+Answer: 
+Auto handles alignment and spacing
+Easier vertical and horizontal centering
+Cleaner, more readable code
